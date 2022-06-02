@@ -107,9 +107,9 @@ a{
     top:20px;
 }
 .btn{
-    margin-left: 64.5%;
-    position: fixed;
-    max-width: 620px;
+    left: 64.5%;
+    position:fixed;
+    max-width: 320px;
     top: 190px;
     background-color: rgb(56, 148, 56);
     border: none;
@@ -124,4 +124,14 @@ a{
 }
 .ft{
     bottom: 100px;
+}
+@media  and (max-width:480px) {
+    .body{
+        background-image: url('backgroundd.jpg');
+        background-image: no-repeat;
+
+        background-position:center ;
+    }
+        
+    
 }
