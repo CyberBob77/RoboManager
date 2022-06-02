@@ -1,42 +1,47 @@
 
- form{
-     margin-left: 40%;
-     position: relative; 
-     top: -525px;
-    
- }
+ 
  fieldset{
     padding: auto;
     border-color:rgb(56, 148, 56) ;
     color: rgb(56, 148, 56);
     font-weight:bold ;
     font-size: larger;
-    height: 40%;
+    height: 60%;
+    border-radius: 15px 50px 30px 5px;
+    max-width: 50%;
+   margin: auto;
 
 }
 .eform{
     margin-left: 35%;
     padding: 20px;
     font-family: 'Orbitron', sans-serif;
-    font-size: 25px;
+    font-size: 41px;
 }
 .pform{
     margin-left: 35%;
     padding: 20px;
     font-family: 'Orbitron', sans-serif;
-    font-size: 25px;
+    font-size: 41px;
 }
 .submit{
     margin-left: 38%;
-    padding:3px;
+    padding:6px;
     color: rgb(56, 148, 56);
     font-weight: bold;
+    background-color: black;
+    border-radius: 15px;
+    font-size: 21px;
+     
 }
 .submit2{
     padding: 3px;
     margin-left: 3%;
     color: rgb(56, 148, 56);
     font-weight: bold;
+    background-color: black;
+    border-radius: 15px;
+    font-size: 21px;
 }
 
 .h1{
@@ -52,6 +57,7 @@ input:hover, input:active {
     border-style: solid;
     border-color: rgb(56, 148, 56);
     border-width: medium;
+    transition-duration: 0.4s;
  }
 .loader{
     border: 16px solid #f3f3f3 ;
@@ -63,13 +69,12 @@ input:hover, input:active {
     margin-left: 47%;
     margin-top: 20%;
 }
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
+
 .body{
     background-image: url('backgroundd.jpg');
-    
+    background-image: no-repeat;
+    background-attachment: fixed;
+    background-position:center ;
 }
 .h2{
     color:rgb(56, 148, 56);
@@ -80,4 +85,43 @@ input:hover, input:active {
 
 .a{
     text-align: end;
+}
+footer{
+    color: rgb(56, 148, 56);
+    margin-bottom: left;
+    background-color: #00000091;
+    margin-top: 17%;
+    text-align: left;
+    height: 100px;
+    font-size: 21px;
+    
+}
+a{
+    color:rgb(56, 148, 56) ;
+    font-size: large;
+}
+.mon{
+    margin-left: 55%;
+    position: fixed;
+    max-width: 620px;
+    top:20px;
+}
+.btn{
+    margin-left: 64.5%;
+    position: fixed;
+    max-width: 620px;
+    top: 190px;
+    background-color: rgb(56, 148, 56);
+    border: none;
+    font-size:xx-large;
+    border-radius: 15px;
+
+}
+.btn:hover{
+    background-color:rgb(0, 0, 0) ;
+    color: rgb(56, 148, 56);
+    transition-duration: 0.4s;
+}
+.ft{
+    bottom: 100px;
 }
